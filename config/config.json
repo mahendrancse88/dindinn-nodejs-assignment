@@ -4,7 +4,8 @@
     "password": "99e5fb00640dee7eb6ef3c470b8f89d4d13416c937a77584dfb6e66540d68faf",
     "database": "dcte1t4fep6hg0",
     "host": "ec2-18-235-45-217.compute-1.amazonaws.com",
-    "dialect": "mysql",
+    "dialect": "postgres",
+    "protocol": "postgres",
     "port":"5432",
     "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
   },
@@ -14,8 +15,9 @@
     "logging": true,
     "database": "dcte1t4fep6hg0",
     "host": "ec2-18-235-45-217.compute-1.amazonaws.com",
-    "dialect": "mysql",
+    "dialect": "postgres",
     "port":"5432",
+    "protocol": "postgres",
     "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
   },
   "production": {
@@ -24,8 +26,9 @@
     "logging": true,
     "database": "dcte1t4fep6hg0",
     "host": "ec2-18-235-45-217.compute-1.amazonaws.com",
-    "dialect": "mysql",
+    "dialect": "postgres",
     "port":"5432",
+    "protocol": "postgres",
     "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
   }
 }
