@@ -1,0 +1,28 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "database_development",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "logging": true,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "logging": true,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
+  }
+}
